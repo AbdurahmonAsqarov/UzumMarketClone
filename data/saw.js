@@ -1,0 +1,40 @@
+export const See =[
+    {
+        id:1,
+        img:"https://images.uzum.uz/cm5f1f9s99ouqbfos56g/original.jpg",
+        title:" Эспандер кистевой пружинный с механическим счетчиком, нагрузка от 10 до 100 кг  ",
+        active:true,
+        oldprice:"95 000",
+        newprice:"55 000",
+    },
+    {
+        id:2,
+        img:"https://images.uzum.uz/co2m3o72u18gghclvr80/t_product_540_high.jpg#1711868941510",
+        title:" Холодильник Premier PRM-211TFDF, 211 л",
+        active:false,
+        oldprice:"3 500 000",
+        newprice:"3 229 000",
+    },   {
+        id:3,
+        img:"https://images.uzum.uz/cf2h1p8l08k0o9qhro00/t_product_540_high.jpg#1711868941517",
+        title:" Тренажёр вело-лыжа GF-110E A.A",
+        active:true,
+        oldprice:"3 780 000",
+        newprice:"1 990 000",
+    },   {
+        id:4,
+        img:"https://images.uzum.uz/cntesatlqsilsr3k4t4g/t_product_540_high.jpg#1711868941527",
+        title:" Кроссовки мужские FLO PROSHOT",
+        active:false,
+        oldprice:"369 000",
+        newprice:"295 000",
+    }, 
+    {
+        id:11,
+        img:"https://images.uzum.uz/clondnvn7c6gg9ie418g/t_product_540_high.jpg#1711867468357",
+        title:" Джемпер для женщин Lamita",
+        active:true,
+        oldprice:"250 000",
+        newprice:"126 000",
+    },
+]

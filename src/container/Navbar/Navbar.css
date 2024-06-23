@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+.navbar{
+    padding: 30px 0;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .container .logo{
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+}
+.navbar .container .logo h1{
+    color: tomato;
+}
+.navbar .container .logo h1 span{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    padding: 10px 20px;
+    background-color: tomato;
+    color: #333;
+
+}
+.navbar .container .cotegory{
+    background-color: rgb(230, 162, 150);
+    font-weight: bold;
+    color: #fff !important;
+}
+.navbar .container .cotegory, .login, .like, .basket{
+    padding: 15px 25px;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 18px;
+}
+.navbar .container .cotegory:hover, .login:hover, .like:hover, .basket:hover{
+    background-color: #c8c7c7;
+}
+
+.navbar .container .search{
+    width: 35vw;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid tomato;
+}
+.navbar .container .search input{
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    outline: none;
+}
+.navbar .container .search button{
+    padding: 12px;
+    border: none;
+    background-color: #cccccc;
+    font-size: 20px;
+    cursor: pointer;
+}

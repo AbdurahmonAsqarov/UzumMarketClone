@@ -1,0 +1,41 @@
+export const popular_product =[
+    {
+        id:1,
+        img:"https://images.uzum.uz/co167atlqsilsr3kue3g/t_product_540_high.jpg#1711704916324",
+        title:" Сковорода Kukmara с антипригарным покрытием, темный мрамор с ручкой и стеклянной крышкой",
+        active:true,
+        oldprice:"254 000",
+        newprice:199000,
+    },
+    {
+        id:2,
+        img:"https://images.uzum.uz/cnta45epom4ma10q3mcg/t_product_540_high.jpg#1711867468356",
+        title:" Телевизор TCL 65&quot; 4K Led HDR 10+ SMART Google TV P635",
+        active:true,
+        oldprice:"10 496 000",
+        newprice:"6 681 000",
+    },  
+    {
+        id:3,
+        img:"https://images.uzum.uz/cccd1ku22va03rn5g8o0/t_product_540_high.jpg#1711867468357",
+        title:" Жидкий пятновыводитель для тканей Vanish Oxi Advance, 750мл",
+        active:true,
+        oldprice:"106 000",
+        newprice:"69 000",
+    },   {
+        id:4,
+        img:"https://images.uzum.uz/cg4v2gfhgiov1qie1j6g/t_product_540_high.jpg#1711867468357",
+        title:"Казан Kukmara, темный мрамор",
+        active:true,
+        oldprice:"295 000",
+        newprice:"219 000",
+    }, 
+    {
+        id:5,
+        img:"https://images.uzum.uz/cm5f1f9s99ouqbfos56g/original.jpg",
+        title:" Эспандер кистевой пружинный с механическим счетчиком, нагрузка от 10 до 100 кг  ",
+        active:false,
+        oldprice:"199 000",
+        newprice:"90 000",
+    },
+]

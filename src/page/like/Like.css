@@ -1,0 +1,109 @@
+.like_space{
+    margin: 0 200px;
+}
+
+
+
+.notFound img{
+    height: 200px;
+    width: 200px;
+    margin: 30px 0;
+}
+.notFound {
+    text-align: center;
+    margin: 100px 0;
+}
+.notFound p{
+    margin: 20px 0;
+}
+.notFound  button{
+    padding: 13px 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: tomato;
+    border-radius: 5px;
+    border: none;
+}
+.Products{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin:100px 50px;
+
+}
+.Products .card{
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all 0.3s linear;
+    position: relative;
+}
+.Products .card div{
+    padding: 10px;
+    color: #333;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+.Products .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s linear;
+}
+.Products .card h3{
+    margin: 20px 0;
+    font-size: 18px;
+}
+.Products .card .newprice{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Products .card:hover{
+    box-shadow: 2px 19px 11px -14px #33333399;
+    -webkit-box-shadow: 2px 19px 11px -14px #33333398;
+    -moz-box-shadow: 2px 19px 11px -14px #33333372;
+}
+.Products .card:hover img{
+    transform: scale(1.01);
+}
+.Products .card .aksiya{
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    top: 60%;
+    left: 0px;
+    background-color: tomato;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+.Products .card .cardlike{
+    position: absolute;
+    z-index: 4;
+    top: 4%;
+    right: 7%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.Products .card div .card-btn{
+    border: none;
+    font-size: 25px;
+    padding: 10px 12px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #333;
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.Products .card div .card-btn:hover{
+    background-color: #33333313;
+}   
